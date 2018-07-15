@@ -8,6 +8,15 @@
 
 Move the app's view to next view or behind view.
 
+
+
+**Caution**
+
+When using segwue every time it is called segue makes a new view. 
+
+A is not used A1 is newly made and used -> Using Protocol, Delegate
+
+
 **Using Method**
 
 1. Connect Views using button.

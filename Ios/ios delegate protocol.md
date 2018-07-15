@@ -6,7 +6,9 @@
 
 **Concept**
 
- Delegate means the representative or substitue
+ Delegate means the representative or substitue 
+
+Using when controll the  **view** **B** using the data in  **view** **A**.
 
 
 
