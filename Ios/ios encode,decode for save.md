@@ -1,4 +1,4 @@
-​										    **Encoder**
+​										    **Encoder, Decoder**
 
 ------
 
@@ -54,3 +54,19 @@ func saveItems() {
         }
 ```
 
+4. Load the Encoded data by Decoding
+
+```
+func loadItems() {
+        if let data = try? Data(contentsOf: dataFilePath!) {
+            let decoder = PropertyListDecoder()
+            do {
+                itemArray = try decoder.decode([Item].self, from: data)
+            } catch {
+                print("Error decoding data \(error)")
+            }
+        }
+    }
+```
+
+5. Call load function in viewDidLoad
