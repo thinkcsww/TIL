@@ -4,15 +4,13 @@
 
 1. 이미지 3개 정렬하기 
 
-![image-20180914232554018](/var/folders/5p/wnsv70m93szdkw10_11fcycr0000gn/T/abnerworks.Typora/image-20180914232554018.png)
-
-Method : 이미지 3를 놓는다.    3개의 Width, Height를 Equal ![image-20180914232720929](/var/folders/5p/wnsv70m93szdkw10_11fcycr0000gn/T/abnerworks.Typora/image-20180914232720929.png)를 통해 한다.
+Method : 이미지 3개를 놓는다.    3개의 Width, Height를 Equal 
 
 왼쪽의 이미지에 Container에 (아래 왼쪽 위)에 핀하고 가운데 이미지는는 아래, 오른쪽 이미지는 아래 오른쪽에 핀한다. 그리고 한글로 쓰여진 텍스트를 눌러서 reset to suggested를 누른다. Auto Sizing에서 좌우를 다 눌러준다.
 
-2.  두 개의 View 크기 같게 만들기 
-
-![image-20180914233016227](/var/folders/5p/wnsv70m93szdkw10_11fcycr0000gn/T/abnerworks.Typora/image-20180914233016227.png)
+2.  두 개의 View 크기를 단말기에 상관 없게 같게 만들기 
+ㅁ
+ㅁ
 
 
 
