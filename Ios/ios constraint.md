@@ -1,4 +1,4 @@
-​								***IOS Constraint***
+								***IOS Constraint***
 
 ------
 
@@ -11,8 +11,6 @@ Method : 이미지 3개를 놓는다.    3개의 Width, Height를 Equal
 2.  두 개의 View 크기를 단말기에 상관 없게 같게 만들기 
 ㅁ
 ㅁ
-
-
 
 위와 같이 뷰를 2개 만들고 두개의 뷰를 Equal Height 하고 아래 뷰를 바닥에 연결하고 
 
