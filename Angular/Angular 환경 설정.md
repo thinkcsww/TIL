@@ -1,4 +1,4 @@
-​															Angular 환경 설정
+															Angular 환경 설정
 
 ------
 
@@ -11,3 +11,4 @@ nvm으로 설치
 2. sudo npm install -g @angular/cli
 3. ng new my-first-app -> router 와 css 뭐쓸지 물어보는데 상황에 맞게
 4. ng serve 하면 4200 포트로 만들어짐 
+
