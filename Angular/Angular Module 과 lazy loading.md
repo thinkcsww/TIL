@@ -36,6 +36,10 @@ LazyLoading은 해당 route로 갔을 때 해당 모듈을 로딩하는 방법�
 
 다음과 같이 한다. 
 
+CanActivate는 loading 후 체크한다. 꼭 필요하다면 Canload를 쓰라네.
+
+그러나 CanActivate와 Preloading을 같이 쓰는것으로도 충분하다고 한다.
+
 1. 이것을 보면 Recipe나 Auth, Shopping list가 import 안되어 있다.
 
 ```
@@ -78,3 +82,18 @@ const appRoutes: Routes = [
 
 
 이렇게 하면 완성!!!
+
+
+
+Preloading을 사용하는 방법, Canactivate와 같이 쓰면 좋다.
+
+```
+@NgModule({
+  imports: [RouterModule.forRoot(appRoutes, { preloadingStrategy: PreloadAllModules })],
+  exports: [RouterModule]
+})
+```
+
+
+
+Preloading은 어떤 route만 preloading 할지 정할 수 있는데 방법은 찾아봐야하는 군요.
