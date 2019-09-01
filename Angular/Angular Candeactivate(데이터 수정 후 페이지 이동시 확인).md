@@ -1,4 +1,4 @@
-​					Angular Candeactivate(데이터 수정 후 페이지 이동시 확인)
+					Angular Candeactivate(데이터 수정 후 페이지 이동시 확인)
 
 ------
 
@@ -31,3 +31,19 @@ export class CanDeactivateGuard implements CanDeactivate<CanComponentDeactivate>
 ```
 
 2. 사용하려는 컴포넌트에 위의 interface를 implements하고 함수안에 원하는 조건에 따라서 boolean을 return하고 페이지를 바꿔도 되면 true를 리턴
+3. router에 canDeactivate attr을 추가해준다.
+
+```
+const appRoutes: Routes = [
+  { path: 'users', component: UsersComponent, children: [
+      { path: ':id/:name', component: UserComponent },
+    ] },
+  { path: 'servers', canActivateChild: [AuthGuard], component: ServersComponent, 
+  children: [
+  // 여기
+      { path: ':id/edit', component: EditServerComponent, canDeactivate: [CanDeactivateGuard]},
+    ] 
+    },
+];
+```
+
